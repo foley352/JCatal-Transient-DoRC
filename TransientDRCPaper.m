@@ -197,8 +197,8 @@ xt = get(gca, 'XTick');
 set(gca, 'FontSize', 14)
 yt = get(gca, 'YTick');
 set(gca, 'FontSize', 14)
-legend('sum X_{RC,i}','X_{RC,1}','X_{RC,2}','X_{RC,3}','X_{RC,4}')
 figure(3*(zz-1)+3)
+legend('sum X_{RC,i}','X_{RC,1}','X_{RC,2}','X_{RC,3}','X_{RC,4}')
 xlabel('Time / a.u.')
 ylabel('X_{RC,i}')
 set(gca,'linewidth',2)
